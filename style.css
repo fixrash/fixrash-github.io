@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    font-size: 18px;
+    background-color: #080412;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Press Start 2P", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container  {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0 auto;
+}
+
+.header-menu li {
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-menu li:last-child {
+    margin-right: 0;
+}
+
+.info-h {
+    color: #ffffff;
+}
+
+.info-p {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-top: 15px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jostick {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-block {
+    width: 600px;
+}
+
+.info-button {
+    background-color: #34294e9f;
+    color: #ffffff;
+    padding: 17px 15px;
+    border-radius: 20px;
+}
+
+.games-cards {
+    color:#ffffff;
+    width: 250px;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.recom-h {
+    color: #ffffff;
+}
+
+.game-or-dlc {
+    margin: 0 auto;
+    opacity: 0.6;
+    color: #ffffff;
+}
+
+.recom-games {
+    display: flex;
+}
+
+.games-cards img {
+    border-radius: 8px;
+}
+
+.free-h {
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+.free-games-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-games-li {
+    margin-top: 5px;
+}
+
+.free-games-ul img {
+    border-radius: 10px;
+}
+
+.nadpisi {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.sale h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.info-button:hover {
+    opacity: 0.9;
+    background-color: #1b0a4e;
+}
+
+.info-button:active {
+    opacity: 0.95;
+    background-color: #200869;
+}
+
+.info-button {
+    background-color: #150a36;
+    color: #ffffff;
+    padding: 14px 26px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.button-posmotret-vse {
+    background-color: #150a36;
+    color: #ffffff;
+    padding: 17px 26px;
+    border-radius: 20px;
+}
+
+.button-posmotret-vse:hover {
+    opacity: 0.9;
+    background-color: #1b0a4e;
+}
+
+.button-posmotret-vse:active {
+    opacity: 0.95;
+    background-color: #200869;
+}
+
+.game-img:hover {
+    opacity: 0.8;
+}
+
+.game-img:active {
+    opacity: 0.6;
+}
+
+
+.free-img:active {
+    opacity: 0.6;
+}
+
+.games-cards a div {
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.games-cards a div img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+
+.games-cards a:hover div img {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu a {
+    font-family: "Press Start 2P", serif;
+}
+
+.footer-menu {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.free-games-li a div {
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.free-games-li a div img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+
+.free-games-li a:hover div img {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.unpoleznaya-info {
+    color: #ffffff;
+    font-family: "Inter", serif;
+    font-weight: 400;
+}
+
+.ERROR-404 {
+    color: #ffffff;
+    font-family: "Press Start 2P", serif;
+    margin-top: 500px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.error-p {
+    color: #ffffff;
+    font-family: "Inter", serif;
+    margin-bottom: 500px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.screen-top-h {
+    color:#ffffff;
+    font-family: "Press Start 2P", serif;
+}
+
+.star {
+    width: 30px;
+}
+
+.screen-footer {
+    display: flex;
+}
+
+.screen-ul {
+   margin-top: 20px; 
+}
+
+.main-screen {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games-cards2 {
+    margin-right: 10px;
+    margin-left: 75px;
+}
+
+.many-photos {
+    margin-right: 100px;
+}
+
+.game-img1:hover {
+    opacity: 0.8;
+}
+
+.game-img1:active {
+    opacity: 0.6;
+}
+
+
+.free-img:active {
+    opacity: 0.6;
+}
+
+.games-cards1 a div {
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.games-cards1 a div img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+
+.games-cards1 a:hover div img {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.games-cards2 a div {
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.games-cards2 a div img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+
+.games-cards2 a:hover div img {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.main-text {
+    background-color: #150a36;
+    color: #080412;
+    border-radius: 35px;
+}
+
+.main-price {
+    width: 1310px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+.price-cube {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 90px;
+    background-color: #25184a;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.price-ban {
+    color: #ffffff;
+    font-family: "Press Start 2P", serif;
+    margin-top: 15px;
+}
+
+.knopochka-p {
+    color: #ffffff;
+    font-family: "Press Start 2P", serif;
+}
+
+.screen-top-h {
+    margin-left: 25px;
+}
+
+.knopochka {
+    background-color: #16a500b4;
+    color: #ffffff;
+    padding: 12px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.knopochka:hover {
+    background-color: #19bb00b4;
+}
+
+.knopochka:active {
+    background-color: #1dd600b4;
+}
+
+.opisanie-igri {
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Inter", serif;
+}
+
+.bald-gate-logo {
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.opisanie-section {
+    display: flex;
+}
+
+.star1 {
+    width: 30px;
+    margin-left: 19px;
+}
+
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 600px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 320px) {
+    .container {
+        width: 320px;
+        
+    }
+    .header {
+        display: block;
+    }
+}
